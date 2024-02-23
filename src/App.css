@@ -1,0 +1,33 @@
+body {
+
+  background: linear-gradient(55deg, rgb(25, 11, 2), rgb(232, 174, 134));
+}
+
+#select {
+  width: 33.33%;
+  height: 80px;
+  background-color: #190B00;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+#select:hover {
+  border: 1px solid white;
+  transform: scale(1.2);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+
+.conteudo_L,
+.conteudo_H {
+  display: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}

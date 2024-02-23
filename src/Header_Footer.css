@@ -1,0 +1,65 @@
+header {text-transform: uppercase;
+    text-align: center;
+
+    height: 140px;
+    margin-top: 0;
+    position: relative;
+    font-family:cursive;
+    display: flex;
+    justify-content: center;
+    text-shadow: 4px 4px 6px black;
+    display: flex;
+    color: white;
+   background-image: url(https://img.freepik.com/vetores-gratis/papel-de-parede-mural-do-restaurante_23-2148695092.jpg?w=740&t=st=1707675347~exp=1707675947~hmac=97121b6769d34f05bf8efb00a8a9bbe7f4023ee92288d5fba0e67513b6e14ff6);
+   
+ 
+}
+
+
+footer {
+    margin-top: 30px;
+    height: 100px;
+    position:relative; /* Posiciona o footer na viewport */
+    bottom: 0; /* Coloca o footer na parte inferior */
+    left: 0; /* Estende o footer por toda a largura */
+    width: auto; /* Ocupa toda a largura da página */
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+    
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-image: url(https://img.freepik.com/vetores-gratis/papel-de-parede-mural-do-restaurante_23-2148695092.jpg?w=740&t=st=1707675347~exp=1707675947~hmac=97121b6769d34f05bf8efb00a8a9bbe7f4023ee92288d5fba0e67513b6e14ff6);
+    
+  }
+
+#icons-1,#icons-2,#icons-3 {
+
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+ }
+
+ #icons-1:hover{
+  transform: scale(1.3);
+  color: green;
+  
+ }
+ #icons-2:hover{
+  color:rgb(154, 0, 203) ;
+  
+ }
+
+ #icons-3:hover{
+  color: red;
+  
+ }
+
+
+ a:hover{
+  transform: scale(1.3);
+  content: icon;
+ }

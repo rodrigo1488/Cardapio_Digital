@@ -1,0 +1,242 @@
+.cards_pai {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 50px;
+    max-width: 300rem;
+}
+
+img {
+    margin: 5px;
+    border-radius: 35px;
+    width: 160px;
+    height: 170px;
+}
+
+.card {
+    height: 200px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid black;
+
+
+}
+
+h1 {
+
+    text-align: center;
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 100);
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: scale(1.1);
+    /* transform: matrix(1.1, 0, 0, 1.1, 0, 10); */
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 30px;
+}
+
+.card_lanche {display: flex;
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin: 30px;
+
+}
+
+input {
+    border-radius: 20px;
+    margin: 5px;
+    width: 90px;
+    font-size: 20px;
+    padding:6px;
+    
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+  all: unset; 
+  min-width: 21px;
+  min-height: 45px;
+  margin: 17px;
+  padding: 0px;
+  background-image: 
+  linear-gradient(to top, transparent 0px, transparent 16px, #fff 16px, #fff 26px, transparent 26px, transparent 35px, #000 35px,#000 36px,transparent 36px, transparent 40px),
+  linear-gradient(to right, transparent 0px, transparent 10px, #000 10px, #000 11px, transparent 11px, transparent 21px);
+  transform: rotate(90deg) scale(0.8, 0.9);
+  cursor:pointer;
+  background-color: transparent;
+  
+  
+}
+.descrição{
+    text-align: center;
+    margin-left: 20px;
+}
+
+label{
+    margin: 5px;
+    font-size:28px;
+}
+
+.descrição p{
+    font-size: 20px;
+}
+
+.card_lanche:hover{
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 100);
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 10);
+    transition: 0.5s;
+}
+
+p{
+    font-size: 18px;
+    font-family: cursive;
+}
+
+
+
+@media (max-width: 768px){.cards_pai {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Alteração para responsivo */
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+img {
+   display:none;
+}
+
+.card {
+    text-align:  center;
+    height:450px ;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+p {
+    text-align: center;
+    max-width: 80%;
+    margin: 5px;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 100);
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 10);
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Alteração para responsivo */
+    grid-gap: 20px;
+    margin-top: 30px;
+}
+
+.card_lanche {
+    display: flex;
+    flex-direction: column; /* Alteração para melhorar o layout */
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px; /* Adição para espaçamento interno */
+}
+
+input {
+    border-radius: 20px;
+    margin: 5px;
+    width: 90px;
+    font-size: 20px;
+    padding: 6px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    all: unset; 
+    min-width: 21px;
+    min-height: 45px;
+    margin: 17px;
+    padding: 0px;
+    background-image: linear-gradient(to top, transparent 0px, transparent 16px, #fff 16px, #fff 26px, transparent 26px, transparent 35px, #000 35px,#000 36px,transparent 36px, transparent 40px), linear-gradient(to right, transparent 0px, transparent 10px, #000 10px, #000 11px, transparent 11px, transparent 21px);
+    transform: rotate(90deg) scale(0.8, 0.9);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.descrição {
+    text-align: center;
+    margin-top: 20px; /* Alteração para melhorar o layout */
+}
+
+label {
+    margin: 5px;
+    font-size: 18px; /* Alteração para melhorar o layout */
+}
+
+.descrição p {
+    font-size: 16px; /* Alteração para melhorar o layout */
+}
+
+.card_lanche:hover {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 100);
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 10);
+    transition: 0.5s;
+}
+
+p {
+    font-size: 16px; /* Alteração para melhorar o layout */
+    font-family: cursive;
+}
+
+.selects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#select{
+    width: 100%;
+}
+
+}
